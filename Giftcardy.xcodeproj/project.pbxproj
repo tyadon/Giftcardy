@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B216D9F18FCCD54009E9F6F /* Giftcard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B216D9E18FCCD54009E9F6F /* Giftcard.m */; };
+		6B216DA218FCD3B2009E9F6F /* GiftcardDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B216DA118FCD3B2009E9F6F /* GiftcardDataManager.m */; };
+		6B2890DC187BA78900F712F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2890DB187BA78900F712F1 /* Foundation.framework */; };
+		6B2890E0187BA78900F712F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2890DF187BA78900F712F1 /* UIKit.framework */; };
+		6B2890E6187BA78900F712F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B2890E4187BA78900F712F1 /* InfoPlist.strings */; };
+		6B2890E8187BA78900F712F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2890E7187BA78900F712F1 /* main.m */; };
+		6B2890EC187BA78900F712F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2890EB187BA78900F712F1 /* AppDelegate.m */; };
+		6B2890EF187BA78900F712F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2890ED187BA78900F712F1 /* Main.storyboard */; };
+		6B2890F7187BA78900F712F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2890F6187BA78900F712F1 /* Images.xcassets */; };
+		6B2890FE187BA78900F712F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2890FD187BA78900F712F1 /* XCTest.framework */; };
+		6B2890FF187BA78900F712F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2890DB187BA78900F712F1 /* Foundation.framework */; };
+		6B289100187BA78900F712F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2890DF187BA78900F712F1 /* UIKit.framework */; };
+		6B289108187BA78900F712F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B289106187BA78900F712F1 /* InfoPlist.strings */; };
+		6B28910A187BA78900F712F1 /* GiftcardyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B289109187BA78900F712F1 /* GiftcardyTests.m */; };
+		6B289129187BA90500F712F1 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B289128187BA90500F712F1 /* TabViewController.m */; };
+		6B289132187BC6EE00F712F1 /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B289131187BC6EE00F712F1 /* CardsViewController.m */; };
+		6B289135187BD00100F712F1 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B289134187BD00100F712F1 /* CardCell.m */; };
+		6B289138187BD8DF00F712F1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B289137187BD8DF00F712F1 /* DetailViewController.m */; };
+		6B4368601886EDA40061DF11 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B43685F1886EDA40061DF11 /* AddViewController.m */; };
+		6B8EF7E618FCE3F000498B4B /* GiftcardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8EF7E518FCE3F000498B4B /* GiftcardManager.m */; };
+		6B8EF7E918FDA1DE00498B4B /* UIColor+Giftcardy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8EF7E818FDA1DE00498B4B /* UIColor+Giftcardy.m */; };
+		6B8EF7EC18FDA69100498B4B /* UIFont+Giftcardy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8EF7EB18FDA69100498B4B /* UIFont+Giftcardy.m */; };
+		6B8EF7EE18FDAF2600498B4B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7ED18FDAF2600498B4B /* Parse.framework */; };
+		6B8EF7F018FDAF3800498B4B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7EF18FDAF3800498B4B /* AudioToolbox.framework */; };
+		6B8EF7F218FDAF3F00498B4B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7F118FDAF3F00498B4B /* CFNetwork.framework */; };
+		6B8EF7F418FDAF4600498B4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7F318FDAF4600498B4B /* CoreGraphics.framework */; };
+		6B8EF7F618FDAF4C00498B4B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7F518FDAF4C00498B4B /* CoreLocation.framework */; };
+		6B8EF7F818FDAF5400498B4B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7F718FDAF5400498B4B /* libz.dylib */; };
+		6B8EF7FA18FDAF5B00498B4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7F918FDAF5B00498B4B /* MobileCoreServices.framework */; };
+		6B8EF7FC18FDAF6100498B4B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7FB18FDAF6100498B4B /* QuartzCore.framework */; };
+		6B8EF7FE18FDAF6700498B4B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7FD18FDAF6700498B4B /* Security.framework */; };
+		6B8EF80018FDAF6C00498B4B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF7FF18FDAF6C00498B4B /* StoreKit.framework */; };
+		6B8EF80218FDAF7400498B4B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B8EF80118FDAF7400498B4B /* SystemConfiguration.framework */; };
+		6BB4D04718862E4C001D2B29 /* IconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4D04618862E4C001D2B29 /* IconViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B289101187BA78900F712F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B2890D0187BA78900F712F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B2890D7187BA78900F712F1;
+			remoteInfo = Giftcardy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B216D9D18FCCD54009E9F6F /* Giftcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Giftcard.h; sourceTree = "<group>"; };
+		6B216D9E18FCCD54009E9F6F /* Giftcard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Giftcard.m; sourceTree = "<group>"; };
+		6B216DA018FCD3B2009E9F6F /* GiftcardDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftcardDataManager.h; sourceTree = "<group>"; };
+		6B216DA118FCD3B2009E9F6F /* GiftcardDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftcardDataManager.m; sourceTree = "<group>"; };
+		6B2890D8187BA78900F712F1 /* Giftcardy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Giftcardy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2890DB187BA78900F712F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6B2890DF187BA78900F712F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6B2890E3187BA78900F712F1 /* Giftcardy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Giftcardy-Info.plist"; sourceTree = "<group>"; };
+		6B2890E5187BA78900F712F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B2890E7187BA78900F712F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6B2890E9187BA78900F712F1 /* Giftcardy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Giftcardy-Prefix.pch"; sourceTree = "<group>"; };
+		6B2890EA187BA78900F712F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B2890EB187BA78900F712F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6B2890EE187BA78900F712F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B2890F6187BA78900F712F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B2890FC187BA78900F712F1 /* GiftcardyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftcardyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B2890FD187BA78900F712F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6B289105187BA78900F712F1 /* GiftcardyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GiftcardyTests-Info.plist"; sourceTree = "<group>"; };
+		6B289107187BA78900F712F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6B289109187BA78900F712F1 /* GiftcardyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftcardyTests.m; sourceTree = "<group>"; };
+		6B289127187BA90500F712F1 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		6B289128187BA90500F712F1 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		6B289130187BC6EE00F712F1 /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		6B289131187BC6EE00F712F1 /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		6B289133187BD00100F712F1 /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		6B289134187BD00100F712F1 /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		6B289136187BD8DF00F712F1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6B289137187BD8DF00F712F1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6B43685E1886EDA40061DF11 /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		6B43685F1886EDA40061DF11 /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		6B8EF7E418FCE3F000498B4B /* GiftcardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftcardManager.h; sourceTree = "<group>"; };
+		6B8EF7E518FCE3F000498B4B /* GiftcardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftcardManager.m; sourceTree = "<group>"; };
+		6B8EF7E718FDA1DE00498B4B /* UIColor+Giftcardy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Giftcardy.h"; sourceTree = "<group>"; };
+		6B8EF7E818FDA1DE00498B4B /* UIColor+Giftcardy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Giftcardy.m"; sourceTree = "<group>"; };
+		6B8EF7EA18FDA69100498B4B /* UIFont+Giftcardy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Giftcardy.h"; sourceTree = "<group>"; };
+		6B8EF7EB18FDA69100498B4B /* UIFont+Giftcardy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Giftcardy.m"; sourceTree = "<group>"; };
+		6B8EF7ED18FDAF2600498B4B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		6B8EF7EF18FDAF3800498B4B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6B8EF7F118FDAF3F00498B4B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6B8EF7F318FDAF4600498B4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6B8EF7F518FDAF4C00498B4B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6B8EF7F718FDAF5400498B4B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6B8EF7F918FDAF5B00498B4B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6B8EF7FB18FDAF6100498B4B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6B8EF7FD18FDAF6700498B4B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6B8EF7FF18FDAF6C00498B4B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6B8EF80118FDAF7400498B4B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6BB4D04518862E4C001D2B29 /* IconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconViewController.h; sourceTree = "<group>"; };
+		6BB4D04618862E4C001D2B29 /* IconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B2890D5187BA78900F712F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8EF80218FDAF7400498B4B /* SystemConfiguration.framework in Frameworks */,
+				6B8EF80018FDAF6C00498B4B /* StoreKit.framework in Frameworks */,
+				6B8EF7FE18FDAF6700498B4B /* Security.framework in Frameworks */,
+				6B8EF7FC18FDAF6100498B4B /* QuartzCore.framework in Frameworks */,
+				6B8EF7FA18FDAF5B00498B4B /* MobileCoreServices.framework in Frameworks */,
+				6B8EF7F818FDAF5400498B4B /* libz.dylib in Frameworks */,
+				6B8EF7F618FDAF4C00498B4B /* CoreLocation.framework in Frameworks */,
+				6B8EF7F418FDAF4600498B4B /* CoreGraphics.framework in Frameworks */,
+				6B8EF7F218FDAF3F00498B4B /* CFNetwork.framework in Frameworks */,
+				6B8EF7F018FDAF3800498B4B /* AudioToolbox.framework in Frameworks */,
+				6B2890E0187BA78900F712F1 /* UIKit.framework in Frameworks */,
+				6B8EF7EE18FDAF2600498B4B /* Parse.framework in Frameworks */,
+				6B2890DC187BA78900F712F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2890F9187BA78900F712F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2890FE187BA78900F712F1 /* XCTest.framework in Frameworks */,
+				6B289100187BA78900F712F1 /* UIKit.framework in Frameworks */,
+				6B2890FF187BA78900F712F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B2890CF187BA78900F712F1 = {
+			isa = PBXGroup;
+			children = (
+				6B2890E1187BA78900F712F1 /* Giftcardy */,
+				6B289103187BA78900F712F1 /* GiftcardyTests */,
+				6B2890DA187BA78900F712F1 /* Frameworks */,
+				6B2890D9187BA78900F712F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B2890D9187BA78900F712F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B2890D8187BA78900F712F1 /* Giftcardy.app */,
+				6B2890FC187BA78900F712F1 /* GiftcardyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B2890DA187BA78900F712F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B8EF80118FDAF7400498B4B /* SystemConfiguration.framework */,
+				6B8EF7FF18FDAF6C00498B4B /* StoreKit.framework */,
+				6B8EF7FD18FDAF6700498B4B /* Security.framework */,
+				6B8EF7FB18FDAF6100498B4B /* QuartzCore.framework */,
+				6B8EF7F918FDAF5B00498B4B /* MobileCoreServices.framework */,
+				6B8EF7F718FDAF5400498B4B /* libz.dylib */,
+				6B8EF7F518FDAF4C00498B4B /* CoreLocation.framework */,
+				6B8EF7F318FDAF4600498B4B /* CoreGraphics.framework */,
+				6B8EF7F118FDAF3F00498B4B /* CFNetwork.framework */,
+				6B8EF7EF18FDAF3800498B4B /* AudioToolbox.framework */,
+				6B8EF7ED18FDAF2600498B4B /* Parse.framework */,
+				6B2890DB187BA78900F712F1 /* Foundation.framework */,
+				6B2890DF187BA78900F712F1 /* UIKit.framework */,
+				6B2890FD187BA78900F712F1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B2890E1187BA78900F712F1 /* Giftcardy */ = {
+			isa = PBXGroup;
+			children = (
+				6B43685E1886EDA40061DF11 /* AddViewController.h */,
+				6B43685F1886EDA40061DF11 /* AddViewController.m */,
+				6B8EF7EA18FDA69100498B4B /* UIFont+Giftcardy.h */,
+				6B8EF7EB18FDA69100498B4B /* UIFont+Giftcardy.m */,
+				6B289130187BC6EE00F712F1 /* CardsViewController.h */,
+				6B289131187BC6EE00F712F1 /* CardsViewController.m */,
+				6B289136187BD8DF00F712F1 /* DetailViewController.h */,
+				6B289137187BD8DF00F712F1 /* DetailViewController.m */,
+				6B8EF7E718FDA1DE00498B4B /* UIColor+Giftcardy.h */,
+				6B8EF7E818FDA1DE00498B4B /* UIColor+Giftcardy.m */,
+				6B2890EA187BA78900F712F1 /* AppDelegate.h */,
+				6B2890EB187BA78900F712F1 /* AppDelegate.m */,
+				6B8EF7E418FCE3F000498B4B /* GiftcardManager.h */,
+				6B8EF7E518FCE3F000498B4B /* GiftcardManager.m */,
+				6B216DA018FCD3B2009E9F6F /* GiftcardDataManager.h */,
+				6B216DA118FCD3B2009E9F6F /* GiftcardDataManager.m */,
+				6B216D9D18FCCD54009E9F6F /* Giftcard.h */,
+				6B216D9E18FCCD54009E9F6F /* Giftcard.m */,
+				6B289127187BA90500F712F1 /* TabViewController.h */,
+				6B289128187BA90500F712F1 /* TabViewController.m */,
+				6B2890ED187BA78900F712F1 /* Main.storyboard */,
+				6BB4D04518862E4C001D2B29 /* IconViewController.h */,
+				6BB4D04618862E4C001D2B29 /* IconViewController.m */,
+				6B289133187BD00100F712F1 /* CardCell.h */,
+				6B289134187BD00100F712F1 /* CardCell.m */,
+				6B2890F6187BA78900F712F1 /* Images.xcassets */,
+				6B2890E2187BA78900F712F1 /* Supporting Files */,
+			);
+			path = Giftcardy;
+			sourceTree = "<group>";
+		};
+		6B2890E2187BA78900F712F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B2890E3187BA78900F712F1 /* Giftcardy-Info.plist */,
+				6B2890E4187BA78900F712F1 /* InfoPlist.strings */,
+				6B2890E7187BA78900F712F1 /* main.m */,
+				6B2890E9187BA78900F712F1 /* Giftcardy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B289103187BA78900F712F1 /* GiftcardyTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B289109187BA78900F712F1 /* GiftcardyTests.m */,
+				6B289104187BA78900F712F1 /* Supporting Files */,
+			);
+			path = GiftcardyTests;
+			sourceTree = "<group>";
+		};
+		6B289104187BA78900F712F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B289105187BA78900F712F1 /* GiftcardyTests-Info.plist */,
+				6B289106187BA78900F712F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B2890D7187BA78900F712F1 /* Giftcardy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B28910D187BA78900F712F1 /* Build configuration list for PBXNativeTarget "Giftcardy" */;
+			buildPhases = (
+				6B2890D4187BA78900F712F1 /* Sources */,
+				6B2890D5187BA78900F712F1 /* Frameworks */,
+				6B2890D6187BA78900F712F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Giftcardy;
+			productName = Giftcardy;
+			productReference = 6B2890D8187BA78900F712F1 /* Giftcardy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B2890FB187BA78900F712F1 /* GiftcardyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B289110187BA78900F712F1 /* Build configuration list for PBXNativeTarget "GiftcardyTests" */;
+			buildPhases = (
+				6B2890F8187BA78900F712F1 /* Sources */,
+				6B2890F9187BA78900F712F1 /* Frameworks */,
+				6B2890FA187BA78900F712F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B289102187BA78900F712F1 /* PBXTargetDependency */,
+			);
+			name = GiftcardyTests;
+			productName = GiftcardyTests;
+			productReference = 6B2890FC187BA78900F712F1 /* GiftcardyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B2890D0187BA78900F712F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Kentech;
+				TargetAttributes = {
+					6B2890D7187BA78900F712F1 = {
+						DevelopmentTeam = BN6HB7WJCD;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					6B2890FB187BA78900F712F1 = {
+						TestTargetID = 6B2890D7187BA78900F712F1;
+					};
+				};
+			};
+			buildConfigurationList = 6B2890D3187BA78900F712F1 /* Build configuration list for PBXProject "Giftcardy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B2890CF187BA78900F712F1;
+			productRefGroup = 6B2890D9187BA78900F712F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B2890D7187BA78900F712F1 /* Giftcardy */,
+				6B2890FB187BA78900F712F1 /* GiftcardyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B2890D6187BA78900F712F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2890F7187BA78900F712F1 /* Images.xcassets in Resources */,
+				6B2890E6187BA78900F712F1 /* InfoPlist.strings in Resources */,
+				6B2890EF187BA78900F712F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2890FA187BA78900F712F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B289108187BA78900F712F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B2890D4187BA78900F712F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2890EC187BA78900F712F1 /* AppDelegate.m in Sources */,
+				6B2890E8187BA78900F712F1 /* main.m in Sources */,
+				6B8EF7EC18FDA69100498B4B /* UIFont+Giftcardy.m in Sources */,
+				6B289135187BD00100F712F1 /* CardCell.m in Sources */,
+				6B216D9F18FCCD54009E9F6F /* Giftcard.m in Sources */,
+				6B4368601886EDA40061DF11 /* AddViewController.m in Sources */,
+				6B216DA218FCD3B2009E9F6F /* GiftcardDataManager.m in Sources */,
+				6BB4D04718862E4C001D2B29 /* IconViewController.m in Sources */,
+				6B8EF7E618FCE3F000498B4B /* GiftcardManager.m in Sources */,
+				6B289129187BA90500F712F1 /* TabViewController.m in Sources */,
+				6B289132187BC6EE00F712F1 /* CardsViewController.m in Sources */,
+				6B289138187BD8DF00F712F1 /* DetailViewController.m in Sources */,
+				6B8EF7E918FDA1DE00498B4B /* UIColor+Giftcardy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B2890F8187BA78900F712F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B28910A187BA78900F712F1 /* GiftcardyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B289102187BA78900F712F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B2890D7187BA78900F712F1 /* Giftcardy */;
+			targetProxy = 6B289101187BA78900F712F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B2890E4187BA78900F712F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2890E5187BA78900F712F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6B2890ED187BA78900F712F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B2890EE187BA78900F712F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B289106187BA78900F712F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B289107187BA78900F712F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B28910B187BA78900F712F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6B28910C187BA78900F712F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B28910E187BA78900F712F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Giftcardy/Giftcardy-Prefix.pch";
+				INFOPLIST_FILE = "Giftcardy/Giftcardy-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6B28910F187BA78900F712F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Giftcardy/Giftcardy-Prefix.pch";
+				INFOPLIST_FILE = "Giftcardy/Giftcardy-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6B289111187BA78900F712F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Giftcardy.app/Giftcardy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Giftcardy/Giftcardy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GiftcardyTests/GiftcardyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6B289112187BA78900F712F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Giftcardy.app/Giftcardy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Giftcardy/Giftcardy-Prefix.pch";
+				INFOPLIST_FILE = "GiftcardyTests/GiftcardyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B2890D3187BA78900F712F1 /* Build configuration list for PBXProject "Giftcardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B28910B187BA78900F712F1 /* Debug */,
+				6B28910C187BA78900F712F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B28910D187BA78900F712F1 /* Build configuration list for PBXNativeTarget "Giftcardy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B28910E187BA78900F712F1 /* Debug */,
+				6B28910F187BA78900F712F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B289110187BA78900F712F1 /* Build configuration list for PBXNativeTarget "GiftcardyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B289111187BA78900F712F1 /* Debug */,
+				6B289112187BA78900F712F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B2890D0187BA78900F712F1 /* Project object */;
+}
