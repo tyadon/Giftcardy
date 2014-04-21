@@ -25,10 +25,9 @@
             NSLog(@"Anonymous login failed.");
         } else {
             NSLog(@"Anonymous user logged in.");
+            [self checkForExistingCardsFromParse];
         }
     }];
-    
-    [self checkForExistingCardsFromParse];
     
     if ([[GiftcardManager sharedManager] numberOfGiftcards] > 0) {
         UITabBarController *tabBar = (UITabBarController *)self.window.rootViewController;
