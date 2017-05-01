@@ -14,5 +14,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblAmntStatus;
 @property (weak, nonatomic) IBOutlet UITextField *cardName;
 @property (weak, nonatomic) IBOutlet UITextField *cardValue;
+@property (weak, nonatomic) IBOutlet UITextField *cardNumber;
+@property (weak, nonatomic) IBOutlet UITextField *cardPin;
 
 @end

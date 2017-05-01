@@ -15,11 +15,15 @@
 #define kNameKey        @"Name"
 #define kAmountKey      @"Amount"
 #define kIconKey        @"Icon"
+#define kNumberKey      @"Number"
+#define kPinKey            @"Pin"
 
 - (void) encodeWithCoder:(NSCoder *)aCoder {
     [aCoder encodeObject:self.name forKey:kNameKey];
     [aCoder encodeObject:self.amount forKey:kAmountKey];
     [aCoder encodeObject:self.icon forKey:kIconKey];
+    [aCoder encodeObject:self.number forKey:kNumberKey];
+    [aCoder encodeObject:self.pin forKey:kPinKey];
 }
 
 - (id) initWithCoder:(NSCoder *)aDecoder {
@@ -27,16 +31,20 @@
         self.name = [aDecoder decodeObjectForKey:kNameKey];
         self.amount = [aDecoder decodeObjectForKey:kAmountKey];
         self.icon = [aDecoder decodeObjectForKey:kIconKey];
+        self.number = [aDecoder decodeObjectForKey:kNumberKey];
+        self.pin = [aDecoder decodeObjectForKey:kPinKey];
     }
     return self;
 }
 
-+ (instancetype) giftcardWithName:(NSString *)name amount:(double)amount icon:(NSInteger)icon {
++ (instancetype) giftcardWithName:(NSString *)name amount:(double)amount icon:(NSInteger)icon number:(NSString *)number pin:(NSString *)pin{
     Giftcard *newGiftcard = [Giftcard new];
     
     newGiftcard.name = name;
     newGiftcard.amount = [NSNumber numberWithDouble:amount];
     newGiftcard.icon = [NSNumber numberWithInteger:icon];
+    newGiftcard.number = number;
+    newGiftcard.pin = pin;
     
     return newGiftcard;
 }

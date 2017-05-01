@@ -30,7 +30,7 @@
             startingLineNumber = "99"
             endingLineNumber = "99"
             landmarkName = "-btnUpdate:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -46,7 +46,7 @@
             startingLineNumber = "138"
             endingLineNumber = "138"
             landmarkName = "-btnTrash:"
-            landmarkType = "5">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

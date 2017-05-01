@@ -19,6 +19,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *tfSpent;
 @property (weak, nonatomic) IBOutlet UITextField *tfAdded;
 @property (weak, nonatomic) IBOutlet UIButton *btnUpdate;
+@property (weak, nonatomic) IBOutlet UITextField *tfCardNumber;
+@property (weak, nonatomic) IBOutlet UITextField *tfCardPin;
 - (IBAction)btnTrash:(id)sender;
 - (IBAction)btnUpdate:(id)sender;
 

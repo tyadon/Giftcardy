@@ -10,7 +10,7 @@
 
 @interface Giftcard : NSObject <NSCoding>
 
-+ (instancetype) giftcardWithName:(NSString *)name amount:(double)amt icon:(NSInteger)icon;
++ (instancetype) giftcardWithName:(NSString *)name amount:(double)amt icon:(NSInteger)icon number:(NSString *)number pin:(NSString *)pin;
 
 - (void) addAmount:(double)amount;
 - (void) subtractAmount:(double)amount;
@@ -20,5 +20,7 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSNumber *icon;
 @property (nonatomic, strong) NSNumber *amount;
+@property (nonatomic, strong) NSString *number;
+@property (nonatomic, strong) NSString *pin;
 
 @end

@@ -140,7 +140,7 @@
     if ([[segue identifier] isEqualToString:@"iconSegue"]) {
         IconViewController *destViewController = segue.destinationViewController;
         double amount = [self.cardValue.text doubleValue];
-        Giftcard *giftcard = [Giftcard giftcardWithName:self.cardName.text amount: amount icon:0];
+        Giftcard *giftcard = [Giftcard giftcardWithName:self.cardName.text amount: amount icon:0 number:@"" pin:@""];
         destViewController.giftcard = giftcard;
     }
 }
